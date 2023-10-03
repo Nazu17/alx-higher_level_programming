@@ -1,11 +1,4 @@
 #!/usr/bin/python3
-def islower(c):
-    is ord(c) >= ord('a') and ord(c) <= ord('z'):
-        return True
-    else:
-        return False
-
-
 def uppercase(str):
     for c in str:
         print("{:c}"
